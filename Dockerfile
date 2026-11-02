@@ -6,7 +6,7 @@ ENV ANDROID_HOME=/opt/android-sdk
 ENV ANDROID_SDK_ROOT=/opt/android-sdk
 ENV ANDROID_NDK_HOME=/opt/android-sdk/ndk/26.3.11579264
 ENV ANDROID_NDK_ROOT=/opt/android-sdk/ndk/26.3.11579264
-ENV PATH=/opt/gradle/gradle-8.6/bin:/opt/android-sdk/cmdline-tools/latest/bin:/opt/android-sdk/platform-tools:$PATH
+ENV PATH=/opt/gradle-8.6/bin:/opt/android-sdk/cmdline-tools/latest/bin:/opt/android-sdk/platform-tools:$PATH
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     openjdk-17-jdk wget unzip git ca-certificates python3 \
